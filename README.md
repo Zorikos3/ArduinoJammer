@@ -7,14 +7,21 @@ Diagram to Connect Modules to UNO 3:
 
 nRF24L01+  →  Arduino
 
-GND        →  GND
-VCC        →  3.3V  ⚠️ (Do NOT use 5V, your module will get fucking fried)
-CE         →  D9
-CSN        →  D10
-SCK        →  D13
-MOSI       →  D11
-MISO       →  D12
-IRQ        →  (Not used)
+1) GND        →  GND
+   
+2) VCC        →  3.3V  ⚠️ (Do NOT use 5V, your module will get fucking fried)
+   
+3) CE         →  D9
+   
+4) CSN        →  D10
+   
+5) SCK        →  D13
+ 
+6) MOSI       →  D11
+    
+7) MISO       →  D12
+    
+8) IRQ        →  (Not used)
 
 ------------------------
 
